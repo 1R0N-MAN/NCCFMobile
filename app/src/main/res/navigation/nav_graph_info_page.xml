@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_info_page"
+    app:startDestination="@id/infoFragmentMainPage">
+
+    <fragment
+        android:id="@+id/historyPageFragment"
+        android:name="com.nccf.nccfmobile.HistoryPageFragment"
+        android:label="fragment_history_page"
+        tools:layout="@layout/fragment_history_page" />
+    <fragment
+        android:id="@+id/currentExecutivesPage"
+        android:name="com.nccf.nccfmobile.CurrentExecutivesPage"
+        android:label="fragment_current_executives_page"
+        tools:layout="@layout/fragment_current_executives_page" />
+    <fragment
+        android:id="@+id/NCCFSongPage"
+        android:name="com.nccf.nccfmobile.NCCFSongPage"
+        android:label="fragment_n_c_c_f_song_page"
+        tools:layout="@layout/fragment_nccf_song_page" />
+    <fragment
+        android:id="@+id/rulesPage"
+        android:name="com.nccf.nccfmobile.RulesPage"
+        android:label="fragment_rules_page"
+        tools:layout="@layout/fragment_rules_page" />
+    <fragment
+        android:id="@+id/infoFragmentMainPage"
+        android:name="com.nccf.nccfmobile.InfoFragmentMainPage"
+        android:label="fragment_info_main_page"
+        tools:layout="@layout/fragment_info_main_page" >
+        <action
+            android:id="@+id/action_infoFragmentMainPage_to_historyPageFragment"
+            app:destination="@id/historyPageFragment" />
+        <action
+            android:id="@+id/action_infoFragmentMainPage_to_currentExecutivesPage"
+            app:destination="@id/currentExecutivesPage" />
+        <action
+            android:id="@+id/action_infoFragmentMainPage_to_NCCFSongPage"
+            app:destination="@id/NCCFSongPage" />
+        <action
+            android:id="@+id/action_infoFragmentMainPage_to_rulesPage"
+            app:destination="@id/rulesPage" />
+    </fragment>
+</navigation>

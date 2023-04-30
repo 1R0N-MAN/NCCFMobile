@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">NCCF Mobile</string>
+    <string name="nccf">NCCF</string>
+
+    <!-- Login Page String Resources -->
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter your email…</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter your password…</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="not_registered_yet">Not registered yet?</string>
+    <string name="content_desc">No Content Description</string>
+    <string name="or">or</string>
+    <string name="sign_in_using">Sign in using</string>
+    <string name="dont_have_an_account">Don\'t have an account?</string>
+    <string name="keep_me_logged_in">Keep me logged in</string>
+
+    <!-- Signup Page String Resources -->
+    <string name="signup">Signup</string>
+    <string name="username">Username</string>
+    <string name="enter_a_username">Enter a username…</string>
+    <string name="google_sign_in_content_desc">Sign in using Google</string>
+    <string name="signup_using">Signup using</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="reenter_password">Reenter your password…</string>
+    <string name="already_have_an_account">Already have an account?</string>
+
+    <!-- Forgot Password Page String Resources -->
+    <string name="email_reset_info">Enter the email address you used to create your account and we\'ll send you a link to reset your password.\n\nIn case you do not get an email, kindly check your spam folder because our mails sometimes end up there for some reason.</string>
+    <string name="send_reset_mail">Reset Password</string>
+    <string name="google">Google</string>
+
+    <!-- Nav Bar String Resources -->
+    <string name="title_home">Home</string>
+    <string name="title_payments">Payments</string>
+    <string name="title_events">Events</string>
+    <string name="title_info">Info</string>
+    <string name="title_settings">Settings</string>
+
+    <!-- Verification String Resources -->
+    <string name="verification_info">We\'ve sent an email to %s. Please check your mail to activate your account.\n\nIn case you do not get an email, kindly check your spam folder because our mails sometimes end up there for some reason.</string>
+    <string name="verification_error">Sorry, There was a problem with verifying your email! Please try again later</string>
+    <string name="resend_verification_mail">Resend verification mail</string>
+    <string name="verify_your_email">Verify your email</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait while we verify your account…</string>
+    <string name="log_out">Log Out</string>
+
+    <!-- Home Page String Resources -->
+    <string name="welcome_to_nccf">Welcome to NCCF</string>
+    <string name="welcome_text">Welcome %s! We\'re thrilled to have you join our community. Our app is designed to keep you informed and connected with NCCF.\n\nWith daily updates and announcements, you\'ll always stay up-to-date on the latest news and developments within our organization. Plus, you\'ll have access to our event calendar to help you plan your schedule and make sure you don\'t miss any of our upcoming events.\n\nAnd when it comes to payments, our in-app payment system makes it easy and secure for you to make any purchases or payments for services provided by NCCF.\n\nThank you for choosing NCCF, and we hope you enjoy using our app to stay connected with our community!</string>
+    <string name="we_love_you">We love you and there\'s nothing you can do about it!</string>
+
+    <!--Payments Page String Resources-->
+
+    <!--Events Page String Resources-->
+
+    <!--Info Page String Resources-->
+    <string name="history_of_nccf">History of NCCF</string>
+    <string name="nccf_history">The NCCF was founded in 1983 by a group of Christian corps members who were dissatisfied with the lack of opportunities to worship and fellowship with other believers during their one-year mandatory national youth service. They felt that there was a need for a Christian organization that could provide a supportive environment for corps members to practice and express their faith. The organization quickly grew in membership and by 1986 it had a presence in all 19 states of Nigeria.\n\nThe NCCF is a non-denominational Christian organization that aims to provide an inclusive environment for corps members to express their faith, regardless of their denominational affiliations. The organization is led by a national executive council, which is elected every two years. It has various programs and activities aimed at helping corps members to grow in their faith and make a positive impact on their communities.\n\nToday, the NCCF has a presence in all 36 states of Nigeria, and is regarded as one of the largest and most influential Christian organizations in the country. The organization remains committed to its mission of providing a platform for corps members to express their faith, while also contributing to the development of Nigeria.</string>
+    <string name="current_executives">Current Executives</string>
+    <string name="nccf_rules">NCCF Rules</string>
+    <string name="nccf_anthem">NCCF Anthem</string>
+
+    <!--Settings Page String Resources-->
+
+</resources>

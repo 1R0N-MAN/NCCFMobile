@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryPageFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/historyOfNCCFTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/project_font_regular"
+            android:textSize="25sp"
+            android:text="@string/history_of_nccf"
+            android:padding="8dp"
+            android:gravity="center"
+            android:textColor="@color/dark_blue"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/NCCFHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/project_font_regular"
+            android:text="@string/nccf_history"
+            android:textSize="16sp"
+            android:padding="8dp"
+            android:gravity="center"
+            android:textColor="@color/dark_blue"
+            app:layout_constraintTop_toBottomOf="@id/historyOfNCCFTitle"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

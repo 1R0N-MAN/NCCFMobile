@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "938434431207",
+    "project_id": "nccf-mobile",
+    "storage_bucket": "nccf-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938434431207:android:4839d3b19ff7d08dd5fa42",
+        "android_client_info": {
+          "package_name": "com.nccf.nccfmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938434431207-nfjpje2938ehdlhs233jbi7uo5d2c2jk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeDlqhHj_z3JVWE1coWyAz69xtTe8Oxms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "938434431207-nfjpje2938ehdlhs233jbi7uo5d2c2jk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
